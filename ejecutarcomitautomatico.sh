@@ -8,7 +8,7 @@ read -p "Press [Enter] key to continue..."
 
 # Commit all changes
 git add .
-git commit -m "$timestamp"
+git commit -m $timestamp
 
 # Push changes
 git push
